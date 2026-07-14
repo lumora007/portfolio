@@ -48,7 +48,17 @@ const Footer = () => {
             <BoulderSVG />
           </StyledBoulderContainer>
           <StyledContactInfo lang={lang}>
-            <li> {t('footer-contact')}: mully7773@gmail.com</li>
+            <li> {t('footer-contact')}: cozmo8110@gmail.com</li>
+            <li>
+              {t('footer-location')}:{' '}
+              <a
+                href='https://www.google.com/maps/search/?api=1&query=Edogawa%202-32-31%2C%20Edogawa%2C%20Tokyo%20132-0013'
+                target='_blank'
+                rel='noreferrer noopener'
+              >
+                {t('footer-address')}
+              </a>
+            </li>
             <li>{t('footer-message')}</li>
           </StyledContactInfo>
         </StyledContactInfoContainer>

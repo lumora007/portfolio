@@ -1,58 +1,69 @@
 {
-  "app-title": "Home | Nick Mullenmeister • Portfolio",
+  "app-title": "Home | Eito Shinokura • Portfolio",
   "loading": "Loading...",
   "greetings": "Hi there, I'm ",
-  "name": "Nick",
+  "name": "Eito",
   "name-end": ".",
-  "sub-heading": "Welcome to my corner of the web.",
-  "more-info": "I'm a web developer based in Minnesota who builds interesting and beautiful websites that help people. My current focus is on accessible React applications. I also love Japan.",
+  "sub-heading": "Lead AI/Data Engineer based in Tokyo.",
+  "more-info": "I architect and deploy advanced AI systems — from multi-agent LLM platforms and RAG pipelines to production-grade MLOps infrastructure. With 6+ years of experience, I help Fortune 500 companies and scale-ups turn cutting-edge AI into reliable, scalable products.",
   "resume-btn": "resume",
   "about-heading": "about me",
-  "about-text-top": "Hi! My name is Nick and I like building things for the web. I was introduced to web development during high school, but I became much more engaged in the field after graduating from a coding boot camp in 2022. Since then I have continued to hone my programming skills through consistent practice and dedication.",
-  "about-text-bottom": "Outside of the coding world, I enjoy traveling and studying Japanese. I spent a few years living in Japan, where I taught English and studied Japanese culture. I also play video games, DJ, enjoy pencil drawing, and practice the piano during my free time.",
+  "about-text-top": "Hi! I'm Eito, a Lead AI/Data Engineer with over six years of experience building AI systems across enterprise data science, automation, and intelligent agent platforms. I've evolved from traditional machine learning and data analytics to cutting-edge LLM-based architectures, specializing in Generative AI, MLOps, and scalable backend infrastructure.",
+  "about-text-bottom": "I've delivered production-grade AI solutions that transformed business operations for Fortune 500 companies and scale-ups, with deep expertise in backend development using Python and modern cloud technologies. I'm driven by turning complex requirements into elegant, dependable systems that create real business value.",
   "technology-heading": "technology",
   "projects-heading": "projects",
-  "featured-tag": "featured project",
+  "experience-heading": "experience",
+  "featured-tag": "project",
   "projects": [
     {
       "id": 1,
-      "description": "A search application that utilizes the moogle API to search for Final Fantasy characters; users can search for the games and characters from the main series."
+      "description": "An autonomous multi-agent system that plans, searches the web, and synthesizes fully-cited research reports. Specialized agents coordinate through LangGraph with shared memory and tool use."
     },
     {
       "id": 2,
-      "description": "A 'task manager' or todo application built with React. Users can add, delete, edit, and view their tasks. I've also included drag and drop functionality to reorder tasks, a mark as complete option, and a dark/light theme toggler."
+      "description": "A retrieval-augmented chatbot that answers questions over 10K+ internal documents with hybrid semantic search, inline source citations, and streaming responses served from a FastAPI backend."
     },
     {
       "id": 3,
-      "description": "An application based on the traditional game with two extra player choices originating from 'The Big Bang Theory'. Users can play against a computer on their mobile device or desktop and try to get a high score."
+      "description": "An OCR-free document-understanding pipeline that extracts structured fields from invoices and contracts using LayoutLMv3, reaching 94%+ field-level accuracy at scale."
     },
     {
       "id": 4,
-      "description": "A thematic and responsive calculator that allows users to easily add, subtract, and divide positive integers and floating point numbers."
+      "description": "A toolkit to fine-tune open LLMs with QLoRA and serve them on vLLM behind an autoscaling Kubernetes cluster, with token streaming and quantized inference for low-cost throughput."
     },
     {
       "id": 5,
-      "description": "A web application I made with HTML, CSS, and JavaScript for a friend to help him connect fiber internet at work more efficiently."
+      "description": "A sub-second search API that fuses dense embeddings with keyword ranking over a Qdrant/FAISS index, returning highly relevant results across millions of records."
     },
     {
       "id": 6,
-      "description": "A mobile responsive landing page for a fictional messaging company called 'Huddle'."
+      "description": "An end-to-end MLOps platform covering data versioning, orchestrated training, a model registry, and CI/CD deployment — dramatically cutting time-to-production."
     },
     {
       "id": 7,
-      "description": "A mobile-responsive app that allows users to get random pieces of advice with the click of a button."
+      "description": "A low-latency recommender that consumes Kafka event streams, computes online features in Redis, and serves personalized ranking through a PyTorch model."
     },
     {
       "id": 8,
-      "description": "This is a browser art pad inspired by the mechanical drawing toy, Etch A Sketch. I named it 'Etch-A-Glow' because users can use glowing squares to sketch their designs."
+      "description": "A real-time computer-vision system that detects manufacturing defects with YOLOv8 and EfficientNet, optimized for edge deployment via ONNX and TensorRT."
     },
     {
       "id": 9,
-      "description": "This is an interactive map application I developed using HTML, CSS, and JavaScript. Users can record their adventures and details such as how much it cost, when it happened, and the duration for future reference."
+      "description": "A dashboard for LLM applications that tracks tokens, cost, and latency, traces multi-step agent runs, and surfaces caching opportunities to reduce spend."
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "description": "As Lead AI/Data Engineer at Foundation EGI, I architect multi-agent LLM systems with LangGraph, CrewAI, and AutoGen to automate finance, HR, and operations workflows — cutting operational costs by 35% for Fortune 500 clients. I build RAG pipelines (LlamaIndex, Pinecone, Weaviate) reaching 92% semantic-search accuracy across 10M+ documents, and run the MLOps and FastAPI microservices that handle 8M+ daily automation requests at 99.9% uptime."
     },
     {
-      "id": 10,
-      "description": "A fully responsive web page for a fictional luxury hotel company called 'Nexter'."
+      "id": 2,
+      "description": "As Senior AI Engineer at Tenchijin, I produced intelligent document-understanding systems with BERT, RoBERTa, and LayoutLM at 94% extraction accuracy, processing 500K+ documents monthly. I built multi-language NLP pipelines across four languages, shipped recommendation engines that lifted conversion by 28%, and pioneered MLOps practices (MLflow, DVC, Kubeflow) that cut time-to-production by 60%."
+    },
+    {
+      "id": 3,
+      "description": "As a Machine Learning Engineer at Citadel AI, I delivered computer-vision inspection systems (ResNet, EfficientNet, YOLO) at 96% detection accuracy, built predictive-analytics models (XGBoost, LightGBM) that reduced inventory costs by $800K annually, and established Docker/Kubernetes CI/CD pipelines that cut deployment time by 70%."
     }
   ],
   "show-more-btn": "show more",
@@ -74,8 +85,14 @@
     {
       "menuTitle": "projects",
       "href": "/#projects"
+    },
+    {
+      "menuTitle": "experience",
+      "href": "/#experience"
     }
   ],
   "footer-contact": "e-mail",
-  "footer-message": "Website by Nick Mullenmeister"
+  "footer-location": "location",
+  "footer-address": "Edogawa 2-32-31, Edogawa, Tokyo 132-0013",
+  "footer-message": "Website by Eito Shinokura"
 }

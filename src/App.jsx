@@ -5,9 +5,9 @@ import Hero from './components/Hero/Hero';
 import GlobalStyles from './styles/Global/GlobalStyles';
 import Skills from './components/Skills/Skills';
 import Sidebar from './components/Sidebar/Sidebar';
-import Projects from './components/Projects/Projects';
+import Showcase from './components/Showcase/Showcase';
+import Experience from './components/Experience/Experience';
 import Navigation from './components/Navigation/Navigation';
-import ProjectGallery from './components/AdditionalProjects/ProjectGallery';
 import { useGlobalContext } from './Context/Context';
 import Footer from './components/Footer/Footer';
 
@@ -30,8 +30,8 @@ function App() {
         <Hero />
         <About />
         <Skills />
-        <Projects />
-        <ProjectGallery />
+        <Showcase />
+        <Experience />
       </main>
       <Footer />
     </ThemeProvider>

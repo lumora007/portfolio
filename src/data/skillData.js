@@ -1,58 +1,70 @@
 export const skillData = [
   {
     id: crypto.randomUUID(),
-    technology: 'HTML',
+    technology: 'Python',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'CSS/SCSS',
+    technology: 'PyTorch',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'JavaScript',
+    technology: 'TensorFlow',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'React',
+    technology: 'LangChain',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'NodeJS',
+    technology: 'LangGraph',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'Styled-Components',
+    technology: 'LlamaIndex',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'Express',
+    technology: 'Hugging Face',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'MongoDb',
+    technology: 'FastAPI',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'NPM',
+    technology: 'Docker',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'Framer-Motion',
+    technology: 'Kubernetes',
   },
   {
     id: crypto.randomUUID(),
-    technology: 'Inkscape',
+    technology: 'MLflow',
+  },
+  {
+    id: crypto.randomUUID(),
+    technology: 'Azure ML',
+  },
+  {
+    id: crypto.randomUUID(),
+    technology: 'AWS',
+  },
+  {
+    id: crypto.randomUUID(),
+    technology: 'Pinecone',
+  },
+  {
+    id: crypto.randomUUID(),
+    technology: 'PostgreSQL',
+  },
+  {
+    id: crypto.randomUUID(),
+    technology: 'vLLM',
   },
   {
     id: crypto.randomUUID(),
     technology: 'Git/Github',
-  },
-  {
-    id: crypto.randomUUID(),
-    technology: 'Vite',
-  },
-  {
-    id: crypto.randomUUID(),
-    technology: 'Figma',
   },
 ];

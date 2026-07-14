@@ -3,8 +3,8 @@ import { StyledSidebarContainer } from '../../styles/Sidebar/StyledSidebarContai
 import { StyledSocialList } from '../../styles/Sidebar/StyledSocialList';
 import { StyledSocialLink } from '../../styles/Sidebar/StyledSocialLink';
 import GithubSVG from '/src/assets/icons/github.svg';
-import LinkedInSVG from '/src/assets/icons/linkedin.svg';
 import MailSVG from '/src/assets/icons/mail.svg';
+import MapPinSVG from '/src/assets/icons/map-pin.svg';
 import { socialIconVariants, socialListVariants } from '../../utils/animations';
 import { useReducedMotion } from 'framer-motion';
 import { useGlobalContext } from '../../Context/Context';
@@ -27,7 +27,7 @@ const Sidebar = () => {
             whileHover='visible'
             animate='hidden'
             variants={socialIconVariants}
-            href='https://github.com/Mully7773'
+            href='https://github.com/pokemon918'
             aria-label='Github'
             target='_blank'
             rel='noreferrer noopener'
@@ -41,12 +41,12 @@ const Sidebar = () => {
             whileHover='visible'
             animate='hidden'
             variants={socialIconVariants}
-            href='https://www.linkedin.com/in/nick-mullenmeister-b7a62078'
-            aria-label='LinkedIn'
+            href='mailto:cozmo8110@gmail.com'
+            aria-label='Gmail'
             target='_blank'
             rel='noreferrer noopener'
           >
-            <LinkedInSVG />
+            <MailSVG />
           </motion.a>
         </StyledSocialLink>
         <StyledSocialLink atBottom={atBottom}>
@@ -55,12 +55,12 @@ const Sidebar = () => {
             whileHover='visible'
             animate='hidden'
             variants={socialIconVariants}
-            href='mailto:mully7773@gmail.com'
-            aria-label='Gmail'
+            href='https://www.google.com/maps/search/?api=1&query=Edogawa%202-32-31%2C%20Edogawa%2C%20Tokyo%20132-0013'
+            aria-label='Location on Google Maps'
             target='_blank'
             rel='noreferrer noopener'
           >
-            <MailSVG />
+            <MapPinSVG />
           </motion.a>
         </StyledSocialLink>
       </StyledSocialList>

@@ -81,5 +81,4 @@ Welcome to my web portfolio! I designed and developed this portfolio to showcase
 
 ## Questions and Feedback:
 
-Feel free to contact me at mully7773@gmail.com if you have any questions or feedback. <br>
-You can view more of my projects at https://github.com/Mully7773.
+Feel free to contact Eito Shinokura at cozmo8110@gmail.com with any questions or feedback.

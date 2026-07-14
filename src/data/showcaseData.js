@@ -1,0 +1,77 @@
+// Portfolio project showcase — representative AI/ML/data-engineering builds.
+// GitHub links point to https://github.com/pokemon918; update the slugs to
+// match your actual repositories (or add a `livelink` for hosted demos).
+export const showcaseData = [
+  {
+    id: crypto.randomUUID(),
+    title: 'Multi-Agent Research Assistant',
+    technologies: ['LangGraph', 'CrewAI', 'GPT-4o', 'FastAPI'],
+    imageUrl: '/rasters/proj1.webp',
+    mobileUrl: '/rasters/proj1.webp',
+    repository: 'https://github.com/pokemon918/Humana-Medical-Voice-Agent',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Enterprise RAG Chatbot',
+    technologies: ['LlamaIndex', 'Pinecone', 'FastAPI', 'Streamlit'],
+    imageUrl: '/rasters/proj2.webp',
+    mobileUrl: '/rasters/proj2.webp',
+    repository: 'https://github.com/pokemon918/langchain-rag',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Document Intelligence Pipeline',
+    technologies: ['LayoutLMv3', 'BERT', 'PyTorch', 'spaCy'],
+    imageUrl: '/rasters/proj3.webp',
+    mobileUrl: '/rasters/proj3.webp',
+    repository: 'https://github.com/pokemon918/PDF-OCR-GoogleDocumentAPI',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'LLM Fine-Tuning & Serving Toolkit',
+    technologies: ['vLLM', 'QLoRA', 'Hugging Face', 'Kubernetes'],
+    imageUrl: '/rasters/proj4.webp',
+    mobileUrl: '/rasters/proj4.webp',
+    repository: 'https://github.com/pokemon918/langcahin-python',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Hybrid Semantic Search Engine',
+    technologies: ['Sentence-Transformers', 'FAISS', 'Qdrant', 'FastAPI'],
+    imageUrl: '/rasters/proj5.webp',
+    mobileUrl: '/rasters/proj5.webp',
+    repository: 'https://github.com/pokemon918/Flask-Spotify-Search-App-For-Websites',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'MLOps Training Platform',
+    technologies: ['MLflow', 'Airflow', 'Docker', 'Kubernetes'],
+    imageUrl: '/rasters/proj6.webp',
+    mobileUrl: '/rasters/proj6.webp',
+    repository: 'https://github.com/pokemon918/training_data_preprocessor',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Real-Time Recommendation Service',
+    technologies: ['PyTorch', 'Kafka', 'Redis', 'FastAPI'],
+    imageUrl: '/rasters/proj7.webp',
+    mobileUrl: '/rasters/proj7.webp',
+    repository: 'https://github.com/pokemon918/ai-investment-bot',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'Vision Defect Detection',
+    technologies: ['YOLOv8', 'EfficientNet', 'ONNX', 'TensorRT'],
+    imageUrl: '/rasters/proj8.webp',
+    mobileUrl: '/rasters/proj8.webp',
+    repository: 'https://github.com/pokemon918/Segment-Anything-React',
+  },
+  {
+    id: crypto.randomUUID(),
+    title: 'LLM Observability Dashboard',
+    technologies: ['LangSmith', 'Helicone', 'FastAPI', 'PostgreSQL'],
+    imageUrl: '/rasters/proj9.webp',
+    mobileUrl: '/rasters/proj9.webp',
+    repository: 'https://github.com/pokemon918/nextjs-dashboard',
+  },
+];

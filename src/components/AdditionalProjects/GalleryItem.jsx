@@ -67,26 +67,30 @@ const GalleryItem = ({ project, description }) => {
             <StyledOpenTitleContainer>
               <h3>{project.title}</h3>
               <ul>
-                <li>
-                  <a
-                    href={project.repository}
-                    aria-label='Github'
-                    target='_blank'
-                    rel='noreferrer noopener'
-                  >
-                    <GithubSVG />
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href={project.livelink}
-                    aria-label='Live website'
-                    target='_blank'
-                    rel='noreferrer noopener'
-                  >
-                    <ExternalLinkSVG />
-                  </a>
-                </li>
+                {project.repository && (
+                  <li>
+                    <a
+                      href={project.repository}
+                      aria-label='Github'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <GithubSVG />
+                    </a>
+                  </li>
+                )}
+                {project.livelink && (
+                  <li>
+                    <a
+                      href={project.livelink}
+                      aria-label='Live website'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <ExternalLinkSVG />
+                    </a>
+                  </li>
+                )}
               </ul>
             </StyledOpenTitleContainer>
             <StyledOpenCardDescription

@@ -39,19 +39,19 @@ const About = () => {
           <StyledPictureCollage>
             <StyledLandscapeContainer>
               <picture>
-                <source type='image/webp' srcSet='/rasters/n02.webp' />
+                <source type='image/jpeg' srcSet='/rasters/bg.png' />
                 <img
-                  src='/rasters/n02.webp'
-                  alt='Landscape picture of Nick looking out at a vast mountain scenery'
+                  src='/rasters/bg.png'
+                  alt='Misty Japanese mountain landscape with a pagoda'
                 />
               </picture>
             </StyledLandscapeContainer>
             <StyledPortraitContainer>
               <picture>
-                <source type='image/webp' srcSet='/rasters/n01.webp' />
+                <source type='image/webp' srcSet='/rasters/eito.webp' />
                 <img
-                  src='/rasters/n01.webp'
-                  alt='Portrait of Nick amidst greenery'
+                  src='/rasters/eito.webp'
+                  alt='Portrait of Eito Shinokura'
                 />
               </picture>
             </StyledPortraitContainer>

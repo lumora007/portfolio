@@ -46,13 +46,13 @@ const Project = ({ project, description, alternate }) => {
               type='image/webp'
               media='(max-width: 768px)'
             />
-            <img src={project.imageUrl} alt={project.description} />
+            <img src={project.imageUrl} alt={project.title} />
           </picture>
         </StyledProjectImageContainer>
       </StyledProjectImage>
       <StyledProjectContent alternate={alternate}>
         <StyledProjectContentBorder alternate={alternate}>
-          <span>{t('featured-tag')}</span>
+          <span>{project.period || t('featured-tag')}</span>
           <h3>{project.title}</h3>
           <StyledProjectDescriptionContainer>
             {/* <p>{project.description}</p> */}
@@ -63,30 +63,36 @@ const Project = ({ project, description, alternate }) => {
               return <li key={tech}>{tech}</li>;
             })}
           </ul>
-          <div>
-            <ul>
-              <li>
-                <a
-                  href={project.repository}
-                  aria-label='Github'
-                  target='_blank'
-                  rel='noreferrer noopener'
-                >
-                  <GithubSVG />
-                </a>
-              </li>
-              <li>
-                <a
-                  href={project.livelink}
-                  aria-label='Live website'
-                  target='_blank'
-                  rel='noreferrer noopener'
-                >
-                  <ExternalLinkSVG />
-                </a>
-              </li>
-            </ul>
-          </div>
+          {(project.repository || project.livelink) && (
+            <div>
+              <ul>
+                {project.repository && (
+                  <li>
+                    <a
+                      href={project.repository}
+                      aria-label='Github'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <GithubSVG />
+                    </a>
+                  </li>
+                )}
+                {project.livelink && (
+                  <li>
+                    <a
+                      href={project.livelink}
+                      aria-label='Live website'
+                      target='_blank'
+                      rel='noreferrer noopener'
+                    >
+                      <ExternalLinkSVG />
+                    </a>
+                  </li>
+                )}
+              </ul>
+            </div>
+          )}
         </StyledProjectContentBorder>
       </StyledProjectContent>
     </StyledProjectItem>

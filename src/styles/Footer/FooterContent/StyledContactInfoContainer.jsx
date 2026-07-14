@@ -29,6 +29,11 @@ export const StyledContactInfo = styled.ul`
       font-size: 1.8rem;
     }
   }
+  & li a {
+    color: inherit;
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+  }
   @media ${props => props.theme.bp.tabletL} {
     margin-left: 5rem;
   }
