@@ -13,7 +13,8 @@ const noMotion = {
 // StyledNavigationBg open and close
 export const menubarVariants = {
   open: {
-    clipPath: 'circle(30rem at 33.4rem 4.50rem)',
+    // Radius must clear the full menu list; grow it when adding nav items
+    clipPath: 'circle(42rem at 33.4rem 4.50rem)',
     transition: {
       stiffness: 20,
       ease: easeInOut,
@@ -390,6 +391,90 @@ export const childProjectVariants = {
     y: '2rem',
     transition: {
       duration: 0.3,
+      ease: cubicBezierEase,
+    },
+  },
+};
+
+// Recommendations animations //
+
+// Parent recommendations ul - staggers the cards in
+export const parentRecommendationVariants = {
+  noMotion: noMotion,
+  hidden: { opacity: 0.01 },
+  visible: {
+    opacity: 1,
+    transition: {
+      delayChildren: 0.15,
+      staggerChildren: 0.18,
+    },
+  },
+};
+
+// Child recommendation card - rises and settles into place
+export const childRecommendationVariants = {
+  noMotion: noMotion,
+  hidden: { opacity: 0.01, y: '3rem', scale: 0.97 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: {
+      duration: 0.6,
+      ease: cubicBezierEase,
+    },
+  },
+};
+
+// Inner card elements - fade in after their card has arrived
+export const recommendationDetailVariants = {
+  noMotion: noMotion,
+  hidden: { opacity: 0.01, y: '1rem' },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      delay: 0.25,
+      duration: 0.5,
+      ease: cubicBezierEase,
+    },
+  },
+};
+
+// Decorative quote mark - scales up as the card lands
+export const quoteMarkVariants = {
+  noMotion: { opacity: 0.35, scale: 1 },
+  hidden: { opacity: 0.01, scale: 0.4, rotate: -12 },
+  visible: {
+    opacity: 0.35,
+    scale: 1,
+    rotate: 0,
+    transition: {
+      delay: 0.2,
+      duration: 0.55,
+      ease: cubicBezierEase,
+    },
+  },
+};
+
+// Extra posts revealed by the Posts show more button
+export const extraPostsVariants = {
+  noMotion: noMotion,
+  hidden: { opacity: 0.01, y: '-2rem' },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      ease: cubicBezierEase,
+      staggerChildren: 0.15,
+    },
+  },
+  exit: {
+    opacity: 0,
+    y: '-2rem',
+    transition: {
+      duration: 0.35,
       ease: cubicBezierEase,
     },
   },

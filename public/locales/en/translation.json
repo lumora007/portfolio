@@ -13,6 +13,10 @@
   "technology-heading": "technology",
   "projects-heading": "projects",
   "experience-heading": "experience",
+  "posts-heading": "posts",
+  "recommendations-heading": "recommendations",
+  "read-post": "read post",
+  "reading-time": "{{minutes}} min read",
   "featured-tag": "project",
   "projects": [
     {
@@ -66,6 +70,98 @@
       "description": "As a Machine Learning Engineer at Citadel AI, I delivered computer-vision inspection systems (ResNet, EfficientNet, YOLO) at 96% detection accuracy, built predictive-analytics models (XGBoost, LightGBM) that reduced inventory costs by $800K annually, and established Docker/Kubernetes CI/CD pipelines that cut deployment time by 70%."
     }
   ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Same Skills, Different Zip Code",
+      "excerpt": "A Christmas story that actually happened to me this year. I was leading a team at a US company, and on billing day I found that the lead developer in Tokyo was billed less than the junior developer in California. I asked the billing manager to account for my lead role, and got a raise — which brought me level with the junior. Then the math hit me: two of me still equalled one senior US dev. Same skills, same work, different geography. Ah, zip code.",
+      "imageAlt": "An eight-panel comic. A Japanese developer leads a US-based team in California. On billing day the rates appear: senior US developer $80/hr, junior US developer $50/hr, and the Japan lead developer 5,000 yen, about $40/hr. He asks the billing manager to consider his lead role and is offered $50/hr on the next billing day. The reality panel shows Japan lead developer below junior US developer, then equal to them at maximum, and two Japan lead developers equal to one senior US developer. He wonders why, and the answer is the zip code: same skills, different zip code. He daydreams about being a US-based lead developer at $150/hr, and closes with a handshake captioned partnership over location.",
+      "body": [
+        { "type": "lead", "text": "Konbanwa, friends! Merry Christmas! 🎄" },
+        {
+          "type": "p",
+          "text": "Wishing you a joyful holiday filled with rest and good moments with loved ones."
+        },
+        {
+          "type": "p",
+          "text": "This story actually happened to me this year, and I hope your holiday is as interesting as this tale."
+        },
+        {
+          "type": "p",
+          "text": "One day, I found myself leading a team at a US company — two American developers (one senior, one junior) and a few Japanese colleagues, myself included."
+        },
+        {
+          "type": "p",
+          "text": "Then came billing day. The numbers appeared on the screen:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Senior US Dev: $80/hr 😐",
+            "Junior US Dev: $50/hr 😐",
+            "Me (Japan Lead Dev): ¥5,000 — that's $40/hr 😞"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "I stared at the screen. Wait... I'm the lead. How does this make sense?"
+        },
+        {
+          "type": "p",
+          "text": "Frustrated, I walked over to the billing manager."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Me",
+          "text": "Could you at least consider that I'm in a lead role?"
+        },
+        {
+          "type": "p",
+          "text": "Weeks passed. The next billing cycle arrived. The manager approached me with a smile."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Manager",
+          "text": "Hey! How about $50/hr?"
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Me",
+          "text": "Wow... thanks so much!"
+        },
+        { "type": "p", "text": "I smiled. But then the math hit me." },
+        {
+          "type": "list",
+          "items": [
+            "Japan Lead Dev < Junior US Dev (before)",
+            "Japan Lead Dev = Junior US Dev (my maximum)",
+            "2× Japan Lead Dev = 1× Senior US Dev"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "I sat alone that night, asking myself one question:"
+        },
+        { "type": "aside", "text": "Why?" },
+        {
+          "type": "p",
+          "text": "And the answer was painfully simple: Ah, zip code."
+        },
+        {
+          "type": "aside",
+          "text": "Same skills. Same work. Different geography."
+        },
+        { "type": "p", "text": "I caught myself daydreaming..." },
+        {
+          "type": "p",
+          "text": "What if I were a US-based Lead Dev? $150/hr... The thought lingered..."
+        },
+        { "type": "end", "text": "— END —" }
+      ]
+    }
+  ],
+  "back-to-posts": "back to posts",
+  "view-profile": "view profile",
   "show-more-btn": "show more",
   "show-less-btn": "show less",
   "learn-more": "more info",
@@ -89,6 +185,14 @@
     {
       "menuTitle": "experience",
       "href": "/#experience"
+    },
+    {
+      "menuTitle": "posts",
+      "href": "/#posts"
+    },
+    {
+      "menuTitle": "recommendations",
+      "href": "/#recommendations"
     }
   ],
   "footer-contact": "e-mail",
