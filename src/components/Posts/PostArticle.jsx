@@ -71,8 +71,8 @@ const PostArticle = ({ post, index }) => {
           <img
             src={post.imageUrl}
             alt={t(`posts.${index}.imageAlt`)}
-            width='1024'
-            height='558'
+            width={post.imageWidth}
+            height={post.imageHeight}
           />
         </StyledArticleFigure>
       )}

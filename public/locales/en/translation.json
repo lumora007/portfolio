@@ -77,7 +77,10 @@
       "excerpt": "A Christmas story that actually happened to me this year. I was leading a team at a US company, and on billing day I found that the lead developer in Tokyo was billed less than the junior developer in California. I asked the billing manager to account for my lead role, and got a raise — which brought me level with the junior. Then the math hit me: two of me still equalled one senior US dev. Same skills, same work, different geography. Ah, zip code.",
       "imageAlt": "An eight-panel comic. A Japanese developer leads a US-based team in California. On billing day the rates appear: senior US developer $80/hr, junior US developer $50/hr, and the Japan lead developer 5,000 yen, about $40/hr. He asks the billing manager to consider his lead role and is offered $50/hr on the next billing day. The reality panel shows Japan lead developer below junior US developer, then equal to them at maximum, and two Japan lead developers equal to one senior US developer. He wonders why, and the answer is the zip code: same skills, different zip code. He daydreams about being a US-based lead developer at $150/hr, and closes with a handshake captioned partnership over location.",
       "body": [
-        { "type": "lead", "text": "Konbanwa, friends! Merry Christmas! 🎄" },
+        {
+          "type": "lead",
+          "text": "Konbanwa, friends! Merry Christmas! 🎄"
+        },
         {
           "type": "p",
           "text": "Wishing you a joyful holiday filled with rest and good moments with loved ones."
@@ -129,7 +132,10 @@
           "speaker": "Me",
           "text": "Wow... thanks so much!"
         },
-        { "type": "p", "text": "I smiled. But then the math hit me." },
+        {
+          "type": "p",
+          "text": "I smiled. But then the math hit me."
+        },
         {
           "type": "list",
           "items": [
@@ -142,7 +148,10 @@
           "type": "p",
           "text": "I sat alone that night, asking myself one question:"
         },
-        { "type": "aside", "text": "Why?" },
+        {
+          "type": "aside",
+          "text": "Why?"
+        },
         {
           "type": "p",
           "text": "And the answer was painfully simple: Ah, zip code."
@@ -151,12 +160,103 @@
           "type": "aside",
           "text": "Same skills. Same work. Different geography."
         },
-        { "type": "p", "text": "I caught myself daydreaming..." },
+        {
+          "type": "p",
+          "text": "I caught myself daydreaming..."
+        },
         {
           "type": "p",
           "text": "What if I were a US-based Lead Dev? $150/hr... The thought lingered..."
         },
-        { "type": "end", "text": "— END —" }
+        {
+          "type": "end",
+          "text": "— END —"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Zero Reviews to Top 3% in Ten Weeks",
+      "excerpt": "In September 2025 I opened an Upwork account with zero reviews and zero history. One month later my first contract closed at 5.0 stars and about $5K. Ten weeks in, Upwork gave me Top Rated Plus — the top 3% of the platform. This is the method behind it: find the client before you write the proposal, write about their problem instead of your résumé, and stop trying to win a bidding war against somebody who will always spend one more connect than you.",
+      "imageAlt": "A screenshot of the author's Upwork profile. The header shows the name Eito S., a location of Tokyo, Japan, a 100% Job Success score and a Top Rated Plus badge. A statistics row reads $10K+ total earnings, 5 total jobs and 256 total hours. Below it, a Promote with ads panel shows Boost your profile switched off, next to a balance of 327 connects. The right column shows the headline Lead AI/Data Engineer, Full-Stack Developer, AI Agent and Agentic AI, at $40.00 per hour.",
+      "body": [
+        {
+          "type": "lead",
+          "text": "In September 2025 I opened an Upwork account with zero reviews, zero history and zero ratings. Ten weeks later the platform put me in the top 3% of its talent."
+        },
+        {
+          "type": "p",
+          "text": "My first contract closed inside a month at 5.0 stars and about $5K. Two and a half months in, Upwork handed me the pink badge: Top Rated Plus, top 3% of talent, $10K+ earned. The Job Success score has stayed at 100% since."
+        },
+        {
+          "type": "p",
+          "text": "People keep asking how a brand new profile does that, usually while assuming I got lucky. So here is the actual method, without the motivational poster version."
+        },
+        {
+          "type": "p",
+          "text": "Right client, before anything else. Most people treat Upwork like a lottery — fire off forty proposals and hope one lands. I treated it like sales. I find the client on LinkedIn first, read what the company actually ships, who they serve, and where their stack is probably hurting. Only then do I open the proposal box."
+        },
+        {
+          "type": "p",
+          "text": "Right message. The proposal is about their problem, written in their industry's vocabulary. It is not about my résumé. My résumé is one click away, and they will read it after they have decided I understood them."
+        },
+        {
+          "type": "p",
+          "text": "The first time I did this, the result was almost funny. The client had exactly one candidate in the pipeline."
+        },
+        {
+          "type": "dialogue",
+          "speaker": "Client",
+          "text": "You're the only one I'm interviewing."
+        },
+        {
+          "type": "p",
+          "text": "One conversation later, I started that week."
+        },
+        {
+          "type": "p",
+          "text": "Right time. Now the part nobody warns you about. Upwork sells visibility: you spend connects to push your proposal up the client's list, and 300 connects runs about $50. I assumed that would be enough to be seen."
+        },
+        {
+          "type": "p",
+          "text": "It is not. Because the person beside you bid 301. And the person beside them bid 302. And somebody with more budget than patience bid 303."
+        },
+        {
+          "type": "aside",
+          "text": "It is an auction where the prize is being looked at."
+        },
+        {
+          "type": "p",
+          "text": "So I stopped trying to outspend people and started trying to out-time them. When you bid matters more than how much you burn. Get in while the job is fresh and the client is still actively reading, and you never have to win the bidding war at all — you only have to be near the top of a page that is still being read."
+        },
+        {
+          "type": "list",
+          "items": [
+            "Right client — researched on LinkedIn before I ever open the proposal box",
+            "Right message — their industry, their problem, their words",
+            "Right time — early, while the client is still reading"
+          ]
+        },
+        {
+          "type": "p",
+          "text": "That is the entire system. It fits on a napkin, and it took me from zero to the top 3% in about ten weeks."
+        },
+        {
+          "type": "p",
+          "text": "The badge is the part Upwork shows. The part I care about is what earned it: five contracts, 256 hours, and no client who had to ask me for anything twice."
+        },
+        {
+          "type": "p",
+          "text": "I work from Tokyo and most of my clients do not. Seventeen hours of time difference turns out to be a feature — you hand me the problem at the end of your day and read the answer at the start of the next one."
+        },
+        {
+          "type": "aside",
+          "text": "Hire the engineer, not the time zone."
+        },
+        {
+          "type": "end",
+          "text": "— END —"
+        }
       ]
     }
   ],
