@@ -6,7 +6,7 @@ export const StyledArticleSection = styled.article`
   gap: 2.4rem;
   padding: 10rem 0 12rem 0;
   margin: 0 auto;
-  max-width: 76rem;
+  max-width: ${props => (props.$wide ? '124rem' : '76rem')};
 
   @media ${props => props.theme.bp.desktopS} {
     margin: 0 12rem;
@@ -99,6 +99,26 @@ export const StyledArticleFigure = styled.figure`
     border-radius: 0.4rem;
     border: 0.1rem solid ${props => props.theme.neutrals.imageBorder};
     box-shadow: 0 0.4rem 1.2rem -0.5rem rgb(0 0 0 / 30%);
+  }
+`;
+
+/* Pairs a page-tall screenshot with the text instead of burying the article
+   under it. Collapses back to one column once the columns get too narrow. */
+export const StyledArticleSplit = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 4rem;
+
+  @media ${props => props.theme.bp.desktopXS} {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+
+    /* stacked, the screenshot would otherwise push the article off the screen */
+    & figure {
+      max-height: 60vh;
+      overflow-y: auto;
+    }
   }
 `;
 
