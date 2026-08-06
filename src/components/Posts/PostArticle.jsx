@@ -6,6 +6,7 @@ import {
   StyledArticleMeta,
   StyledArticleTags,
   StyledArticleFigure,
+  StyledArticleSplit,
   StyledArticleBody,
   StyledArticleLead,
   StyledArticleList,
@@ -49,9 +50,36 @@ const PostArticle = ({ post, index }) => {
     { year: 'numeric', month: 'long', day: 'numeric' }
   ).format(new Date(post.date));
   const body = t(`posts.${index}.body`, { returnObjects: true });
+  const isSplit = post.imageLayout === 'side' && post.imageUrl;
+
+  const figure = post.imageUrl && (
+    <StyledArticleFigure>
+      <img
+        src={post.imageUrl}
+        alt={t(`posts.${index}.imageAlt`)}
+        width={post.imageWidth}
+        height={post.imageHeight}
+      />
+    </StyledArticleFigure>
+  );
+
+  const articleBody = (
+    <StyledArticleBody>
+      {Array.isArray(body) &&
+        body.map((block, blockIndex) => {
+          return (
+            <ArticleBlock
+              key={`${block.type}-${blockIndex}`}
+              block={block}
+              lang={lang}
+            />
+          );
+        })}
+    </StyledArticleBody>
+  );
 
   return (
-    <StyledArticleSection lang={lang}>
+    <StyledArticleSection lang={lang} $wide={isSplit}>
       <StyledBackLink href='#posts' lang={lang}>
         {t('back-to-posts')}
       </StyledBackLink>
@@ -66,28 +94,17 @@ const PostArticle = ({ post, index }) => {
           return <li key={tag}>{tag}</li>;
         })}
       </StyledArticleTags>
-      {post.imageUrl && (
-        <StyledArticleFigure>
-          <img
-            src={post.imageUrl}
-            alt={t(`posts.${index}.imageAlt`)}
-            width={post.imageWidth}
-            height={post.imageHeight}
-          />
-        </StyledArticleFigure>
+      {isSplit ? (
+        <StyledArticleSplit>
+          {figure}
+          {articleBody}
+        </StyledArticleSplit>
+      ) : (
+        <>
+          {figure}
+          {articleBody}
+        </>
       )}
-      <StyledArticleBody>
-        {Array.isArray(body) &&
-          body.map((block, blockIndex) => {
-            return (
-              <ArticleBlock
-                key={`${block.type}-${blockIndex}`}
-                block={block}
-                lang={lang}
-              />
-            );
-          })}
-      </StyledArticleBody>
     </StyledArticleSection>
   );
 };
