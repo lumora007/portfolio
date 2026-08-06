@@ -34,8 +34,8 @@ const PostCard = ({
           <img
             src={post.imageUrl}
             alt={imageAlt}
-            width='1024'
-            height='558'
+            width={post.imageWidth}
+            height={post.imageHeight}
             loading='lazy'
           />
         </StyledPostImage>

@@ -135,10 +135,14 @@ export const StyledPostImage = styled.div`
   overflow: hidden;
   border-bottom: 0.1rem solid ${props => props.theme.neutrals.imageBorder};
 
+  /* a shared ratio keeps every card's text starting at the same height,
+     whatever the source image happens to be */
   & img {
     width: 100%;
     height: auto;
+    aspect-ratio: 1024 / 558;
     object-fit: cover;
+    object-position: top;
   }
 `;
 
