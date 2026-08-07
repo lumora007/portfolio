@@ -177,8 +177,8 @@
     {
       "id": 2,
       "title": "Zero Reviews to Top 3% in Ten Weeks",
-      "excerpt": "In September 2025 I opened an Upwork account with zero reviews and zero history. One month later my first contract closed at 5.0 stars and about $5K. Ten weeks in, Upwork gave me Top Rated Plus — the top 3% of the platform. This is the method behind it: find the client before you write the proposal, write about their problem instead of your résumé, and stop trying to win a bidding war against somebody who will always spend one more connect than you.",
-      "imageAlt": "A screenshot of the author's Upwork profile, running from the header down through the work history. The header shows the name Eito S., a location of Tokyo, Japan, a 100% Job Success score and a Top Rated Plus badge, alongside $10K+ total earnings, 5 total jobs and 256 total hours. Below it sit the professional overview, a portfolio of three published projects, and four completed contracts, each rated five stars.",
+      "excerpt": "Upwork is the largest freelancing platform in the world, most of its clients are American, and the US market pays the highest rates you will find anywhere. In September 2025 I opened an Upwork account with zero reviews and zero history. One month later my first contract closed at 5.0 stars and about $5K. Ten weeks in, Upwork gave me Top Rated Plus — the top 3% of the platform. This is the method behind it: find the client before you write the proposal, write about their problem instead of your résumé, and stop trying to win a bidding war against somebody who will always spend one more connect than you.",
+      "imageAlt": "A screenshot of the author's Upwork profile. The header shows the name Eito S., a location of Tokyo, Japan, a 100% Job Success score and a Top Rated Plus badge. A statistics row reads $10K+ total earnings, 5 total jobs and 256 total hours. Below it, a Promote with ads panel shows Boost your profile switched off, next to a balance of 327 connects. The right column shows the headline Lead AI/Data Engineer, Full-Stack Developer, AI Agent and Agentic AI, at $40.00 per hour.",
       "body": [
         {
           "type": "lead",
@@ -190,7 +190,15 @@
         },
         {
           "type": "p",
-          "text": "People keep asking how a brand new profile does that, usually while assuming I got lucky. So here is the actual method, without the motivational poster version."
+          "text": "A word on why Upwork and not somewhere else. It is the largest freelancing platform in the world, and that scale is the whole argument. Most of the clients on it are American, and the US market pays the highest rates you will find anywhere — so the biggest pool of work also happens to be the best paid pool of work."
+        },
+        {
+          "type": "p",
+          "text": "Naturally, I am not the only one who noticed. Every one of those clients is being pitched by freelancers from every continent at once. Being good at the job was never going to be the hard part. Being seen was."
+        },
+        {
+          "type": "p",
+          "text": "People keep asking how a brand new profile gets past that, usually while assuming I got lucky. So here is the actual method, without the motivational poster version."
         },
         {
           "type": "p",
@@ -251,7 +259,7 @@
         },
         {
           "type": "p",
-          "text": "I work from Tokyo and most of my clients do not. Seventeen hours of time difference turns out to be a feature — you hand me the problem at the end of your day and read the answer at the start of the next one."
+          "text": "I work from Tokyo and most of my clients do not. The best paid market on this platform is American, and across ten weeks inside it my address has not come up once. Seventeen hours of time difference turns out to be a feature — you hand me the problem at the end of your day and read the answer at the start of the next one."
         },
         {
           "type": "aside",
