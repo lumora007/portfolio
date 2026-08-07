@@ -24,9 +24,7 @@ export const postData = [
     tags: ['Upwork', 'Freelancing', 'Client Strategy'],
     imageUrl: '/rasters/upwork-profile.webp',
     imageWidth: 1000,
-    imageHeight: 4703,
-    // a page-tall image only works beside the text, not stacked above it
-    imageLayout: 'side',
+    imageHeight: 2181,
   },
   { id: 'post-placeholder-3', placeholder: true },
   { id: 'post-placeholder-4', placeholder: true },
