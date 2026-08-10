@@ -59,7 +59,7 @@ const GalleryItem = ({ project, description }) => {
         <StyledThumbnail layout='scale' isCardOpened={isCardOpened}>
           <picture>
             <source type='image/webp' srcSet={project.imageUrl} />
-            <img src={project.imageUrl} alt={project.description} />
+            <img src={project.imageUrl} alt={project.title} />
           </picture>
         </StyledThumbnail>
         {isCardOpened && (

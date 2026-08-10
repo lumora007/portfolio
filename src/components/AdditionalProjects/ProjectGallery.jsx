@@ -1,6 +1,6 @@
 import { AnimatePresence, useReducedMotion, motion } from 'framer-motion';
 import { useGlobalContext } from '../../Context/Context';
-import { projectData } from '../../data/projectData';
+import { showcaseData } from '../../data/showcaseData';
 import { StyledProjectButton } from '../../styles/UI/StyledProjectsButton';
 import { StyledProjectGallery } from '../../styles/AdditionalProjects/AdditionalProjectsLayout/StyledProjectGallery';
 import GalleryItem from './GalleryItem';
@@ -24,7 +24,7 @@ const ProjectGallery = () => {
               variants={parentProjectVariants}
               exit='exit'
             >
-              {projectData
+              {showcaseData
                 .slice(CONSTANTS.FEATURED_PROJECT_CUTOFF)
                 .map((project, index) => {
                   return (

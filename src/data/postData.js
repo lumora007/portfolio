@@ -19,12 +19,20 @@ export const postData = [
   {
     id: 'post-upwork-top-rated-plus',
     slug: 'zero-reviews-to-top-3-percent',
-    date: '2026-08-06',
+    date: '2026-01-20',
     readingTime: 4,
     tags: ['Upwork', 'Freelancing', 'Client Strategy'],
-    imageUrl: '/rasters/upwork-top-rated-plus.webp',
+    imageUrl: '/rasters/upwork-profile-overview.webp',
     imageWidth: 1200,
-    imageHeight: 947,
+    imageHeight: 1903,
+    // referenced from the article body by index: { type: 'figure', index: 0 }
+    figures: [
+      {
+        src: '/rasters/upwork-work-history.webp',
+        width: 1200,
+        height: 1561,
+      },
+    ],
   },
   { id: 'post-placeholder-3', placeholder: true },
   { id: 'post-placeholder-4', placeholder: true },

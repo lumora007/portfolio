@@ -1,8 +1,27 @@
 export const projectData = [
   {
     id: crypto.randomUUID(),
+    title: 'Engineering Lead',
+    period: 'LumoraTech · Edogawa, Tokyo · 2022 – Present',
+    description:
+      'Lead the team building production AI systems — retrieval pipelines, agent architectures, and the full-stack products around them.',
+    technologies: [
+      'LangGraph',
+      'PydanticAI',
+      'Next.js',
+      'FastAPI',
+      'pgvector',
+      'PostgreSQL',
+      'TypeScript',
+      'AWS',
+    ],
+    imageUrl: '/water-color-sm.webp',
+    mobileUrl: '/water-color-sm.webp',
+  },
+  {
+    id: crypto.randomUUID(),
     title: 'Lead AI/Data Engineer',
-    period: 'Foundation EGI · Los Altos, CA · 2025 – Present',
+    period: 'Foundation EGI · Los Altos, CA · 2025',
     description:
       'Architected multi-agent LLM systems and RAG pipelines that automate enterprise workflows for Fortune 500 clients.',
     technologies: [
