@@ -14,10 +14,25 @@ import {
   StyledArticleEnd,
 } from '../../styles/Posts/StyledPostArticle';
 
-const ArticleBlock = ({ block, lang }) => {
+const ArticleBlock = ({ block, lang, figures }) => {
   switch (block.type) {
     case 'lead':
       return <StyledArticleLead>{block.text}</StyledArticleLead>;
+    case 'figure': {
+      const figure = figures?.[block.index];
+      if (!figure) return null;
+      return (
+        <StyledArticleFigure>
+          <img
+            src={figure.src}
+            alt={block.alt}
+            width={figure.width}
+            height={figure.height}
+            loading='lazy'
+          />
+        </StyledArticleFigure>
+      );
+    }
     case 'list':
       return (
         <StyledArticleList>
@@ -84,6 +99,7 @@ const PostArticle = ({ post, index }) => {
                 key={`${block.type}-${blockIndex}`}
                 block={block}
                 lang={lang}
+                figures={post.figures}
               />
             );
           })}

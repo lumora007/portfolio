@@ -21,52 +21,76 @@
   "projects": [
     {
       "id": 1,
-      "description": "An autonomous multi-agent system that plans, searches the web, and synthesizes fully-cited research reports. Specialized agents coordinate through LangGraph with shared memory and tool use."
+      "description": "Luma is a platform that allows users to create and explore booked events. It provides a ticket purchasing system where users can buy and sell event tickets."
     },
     {
       "id": 2,
-      "description": "A retrieval-augmented chatbot that answers questions over 10K+ internal documents with hybrid semantic search, inline source citations, and streaming responses served from a FastAPI backend."
+      "description": "TalkHealth.ai transforms health engagement through AI-driven insights, offering accessible, precise, and personalized medical information."
     },
     {
       "id": 3,
-      "description": "An OCR-free document-understanding pipeline that extracts structured fields from invoices and contracts using LayoutLMv3, reaching 94%+ field-level accuracy at scale."
+      "description": "Smart Land Planner turns a PDF site survey into a professional site plan. It rasterizes the survey into a high-resolution image, hands it to Gemini for analysis, and returns a detailed plan in seconds instead of days."
     },
     {
       "id": 4,
-      "description": "A toolkit to fine-tune open LLMs with QLoRA and serve them on vLLM behind an autoscaling Kubernetes cluster, with token streaming and quantized inference for low-cost throughput."
+      "description": "HelloHistory is an AI powered mobile app that lets you have life-like conversations with historical figures. Get a personal perspective on life, history, and the world from some of the most influential figures of all time."
     },
     {
       "id": 5,
-      "description": "A sub-second search API that fuses dense embeddings with keyword ranking over a Qdrant/FAISS index, returning highly relevant results across millions of records."
+      "description": "Soccersm is an AI tool where you can request and get pre-match predictions with high accuracy and detailed analysis for all major leagues and competitions."
     },
     {
       "id": 6,
-      "description": "An end-to-end MLOps platform covering data versioning, orchestrated training, a model registry, and CI/CD deployment — dramatically cutting time-to-production."
-    },
-    {
-      "id": 7,
-      "description": "A low-latency recommender that consumes Kafka event streams, computes online features in Redis, and serves personalized ranking through a PyTorch model."
-    },
-    {
-      "id": 8,
       "description": "A real-time computer-vision system that detects manufacturing defects with YOLOv8 and EfficientNet, optimized for edge deployment via ONNX and TensorRT."
     },
     {
+      "id": 7,
+      "description": "An OCR-free document-understanding pipeline that extracts structured fields from invoices and contracts using LayoutLMv3, reaching 94%+ field-level accuracy at scale."
+    },
+    {
+      "id": 8,
+      "description": "Fractal is an NFT marketplace which allows online gamers to purchase NFTs and compete with others. Each sprint it runs a game event for users and provides a prize for the winner."
+    },
+    {
       "id": 9,
-      "description": "A dashboard for LLM applications that tracks tokens, cost, and latency, traces multi-step agent runs, and surfaces caching opportunities to reduce spend."
+      "description": "Stromodoro is a simple website that helps users increase their productivity by using the Pomodoro Technique."
+    },
+    {
+      "id": 10,
+      "description": "Ripplenote is a website that provides a simple and elegant platform for creating and sharing notes."
+    },
+    {
+      "id": 11,
+      "description": "A website project for people who are looking for information about movies and current trends."
+    },
+    {
+      "id": 12,
+      "description": "A task manager or todo application built with React. Users can add, delete, edit, and view their tasks."
+    },
+    {
+      "id": 13,
+      "description": "BloomyWeather is a project made with a weather API which shows you the current weather of your target location."
+    },
+    {
+      "id": 14,
+      "description": "Foodie is a vanilla JavaScript application that interacts with the Forkify API to fetch and display recipe food data."
     }
   ],
   "experience": [
     {
       "id": 1,
-      "description": "As Lead AI/Data Engineer at Foundation EGI, I architect multi-agent LLM systems with LangGraph, CrewAI, and AutoGen to automate finance, HR, and operations workflows — cutting operational costs by 35% for Fortune 500 clients. I build RAG pipelines (LlamaIndex, Pinecone, Weaviate) reaching 92% semantic-search accuracy across 10M+ documents, and run the MLOps and FastAPI microservices that handle 8M+ daily automation requests at 99.9% uptime."
+      "description": "As Engineering Lead at LumoraTech, an AI-focused engineering studio in Edogawa, Tokyo, I lead the team that designs and ships AI systems built to survive production. That means retrieval pipelines with eval-gated deployments, multi-agent architectures on LangGraph, and the full-stack products and data platforms that surround them — delivered remotely, in Japanese or English, for founders and product teams here and abroad."
     },
     {
       "id": 2,
-      "description": "As Senior AI Engineer at Tenchijin, I produced intelligent document-understanding systems with BERT, RoBERTa, and LayoutLM at 94% extraction accuracy, processing 500K+ documents monthly. I built multi-language NLP pipelines across four languages, shipped recommendation engines that lifted conversion by 28%, and pioneered MLOps practices (MLflow, DVC, Kubeflow) that cut time-to-production by 60%."
+      "description": "As Lead AI/Data Engineer at Foundation EGI, I architected multi-agent LLM systems with LangGraph, CrewAI, and AutoGen to automate finance, HR, and operations workflows — cutting operational costs by 35% for Fortune 500 clients. I built RAG pipelines (LlamaIndex, Pinecone, Weaviate) reaching 92% semantic-search accuracy across 10M+ documents, and ran the MLOps and FastAPI microservices that handle 8M+ daily automation requests at 99.9% uptime."
     },
     {
       "id": 3,
+      "description": "As Senior AI Engineer at Tenchijin, I produced intelligent document-understanding systems with BERT, RoBERTa, and LayoutLM at 94% extraction accuracy, processing 500K+ documents monthly. I built multi-language NLP pipelines across four languages, shipped recommendation engines that lifted conversion by 28%, and pioneered MLOps practices (MLflow, DVC, Kubeflow) that cut time-to-production by 60%."
+    },
+    {
+      "id": 4,
       "description": "As a Machine Learning Engineer at Citadel AI, I delivered computer-vision inspection systems (ResNet, EfficientNet, YOLO) at 96% detection accuracy, built predictive-analytics models (XGBoost, LightGBM) that reduced inventory costs by $800K annually, and established Docker/Kubernetes CI/CD pipelines that cut deployment time by 70%."
     }
   ],
@@ -178,7 +202,7 @@
       "id": 2,
       "title": "Zero Reviews to Top 3% in Ten Weeks",
       "excerpt": "Upwork is the largest freelancing platform in the world, most of its clients are American, and the US market pays the highest rates you will find anywhere. In September 2025 I opened an Upwork account with zero reviews and zero history. One month later my first contract closed at 5.0 stars and about $5K. Ten weeks in, Upwork gave me Top Rated Plus — the top 3% of the platform. This is the method behind it: find the client before you write the proposal, write about their problem instead of your résumé, and stop trying to win a bidding war against somebody who will always spend one more connect than you.",
-      "imageAlt": "A screenshot of the author's Upwork profile. The header shows the name Eito S., a location of Tokyo, Japan, a 100% Job Success score and a Top Rated Plus badge. A statistics row reads $10K+ total earnings, 5 total jobs and 256 total hours. Below it, a Promote with ads panel shows Boost your profile switched off, next to a balance of 327 connects. The right column shows the headline Lead AI/Data Engineer, Full-Stack Developer, AI Agent and Agentic AI, at $40.00 per hour.",
+      "imageAlt": "A screenshot of the author's Upwork profile, from the top of the page down through the Portfolio and Education sections. The header shows the name Eito S., a location of Tokyo, Japan, a 100% Job Success score and a Top Rated Plus badge, above a statistics row reading $10K+ total earnings, 5 total jobs and 256 total hours. The left column lists availability, languages, verifications and two degrees, from the University of Tokyo and the Tokyo Institute of Technology. The right column carries the headline Lead AI/Data Engineer, Full-Stack Developer, AI Agent and Agentic AI at $40.00 per hour, a professional overview, and a portfolio of three published projects.",
       "body": [
         {
           "type": "lead",
@@ -254,16 +278,21 @@
           "text": "I am not going to be modest about this one. Millions of people freelance on Upwork, and Top Rated Plus is the top 3% of them. I got there in ten weeks from a profile with nothing on it — no reviews to trade on, no history to point at, no agency behind me. Five contracts, 256 hours, five-star reviews across the board, and a Job Success score that has not moved off 100%."
         },
         {
+          "type": "figure",
+          "index": 0,
+          "alt": "A screenshot of the Work history section of the same Upwork profile, showing four completed jobs, each rated 5.0 out of 5: a senior full-stack developer role at $1,000, an OpenAI Agent Builder and ChatKit server-side build at $2,045, frontend API integrations for automated blog posts at $2,400, and data pipeline and analytics dashboard engineering at $4,800, each with an excerpt from the client's written feedback."
+        },
+        {
           "type": "p",
           "text": "Luck does not repeat five times in a row."
         },
         {
           "type": "p",
-          "text": "I work from Tokyo and most of my clients do not. The best paid market on this platform is American, and across ten weeks inside it my address has not come up once. Seventeen hours of time difference turns out to be a feature — you hand me the problem at the end of your day and read the answer at the start of the next one."
+          "text": "Every one of those contracts was real engineering work — data pipelines, agent systems, dashboards that had to keep running long after I logged off. The perfect scores are not for being easy to work with. They are for delivering things that held up."
         },
         {
           "type": "aside",
-          "text": "Zero to top 3% in ten weeks. Hire the engineer, not the time zone."
+          "text": "Five contracts. Five perfect scores. Ten weeks. Bring me the sixth."
         },
         {
           "type": "end",

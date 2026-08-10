@@ -7,6 +7,7 @@ import GlobalStyles from './styles/Global/GlobalStyles';
 import Skills from './components/Skills/Skills';
 import Sidebar from './components/Sidebar/Sidebar';
 import Showcase from './components/Showcase/Showcase';
+import ProjectGallery from './components/AdditionalProjects/ProjectGallery';
 import Experience from './components/Experience/Experience';
 import Posts from './components/Posts/Posts';
 import PostArticle from './components/Posts/PostArticle';
@@ -61,6 +62,7 @@ function App() {
           <About />
           <Skills />
           <Showcase />
+          <ProjectGallery />
           <Experience />
           <Posts />
           <Recommendations />
